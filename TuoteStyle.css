@@ -1,0 +1,44 @@
+/* Tuotesivujen muotoilua: */
+
+body{
+    background-color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.responsive{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+.button{
+    background-color: rgb(221, 235, 34);
+    font-size: 24px;
+    padding: 10px 24px;
+    text-decoration: none;
+}
+.sidenav{
+    padding: 20px;
+}
+.fixed_header {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.fixed_header tbody {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 300px;
+}
+.fixed_header thead tr {
+    display: block;
+}
+.fixed_header thead {
+    background: rgb(6, 54, 22);
+    color: rgb(248, 239, 239);
+}
+.fixed_header th, .fixed_header td {
+    padding: 10px;
+    text-align: left;
+    width: 150px;
+}
